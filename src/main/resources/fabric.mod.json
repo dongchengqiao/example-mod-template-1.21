@@ -3,13 +3,13 @@
 	"id": "example-mod",
 	"version": "${version}",
 	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "这只是一个简单的模组",
 	"authors": [
-		"Me!"
+		"dongchengqiao"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/dongchengqiao/example-mod-template-1.21",
+		"sources": "https://github.com/dongchengqiao/example-mod-template-1.21"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/example-mod/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.dongchengqiao.example.ExampleModDataGenerator"
+		],
+		"client": [
+			"com.dongchengqiao.example.ExampleModClient"
 		]
 	},
 	"mixins": [
