@@ -2,13 +2,11 @@ package com.dongchengqiao.example.item;
 
 import com.dongchengqiao.example.ExampleMod;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-
     //第一个物品
     public static final Item New_Item = registerItem("new_item", new Item(new Item.Settings()));
 

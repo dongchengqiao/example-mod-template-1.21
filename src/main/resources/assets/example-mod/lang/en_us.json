@@ -1,3 +1,4 @@
 {
-  "item.example-mod.new_item": "New Item"
+  "item.example-mod.new_item": "New Item",
+  "itemGroup.example_group": "Example Mod"
 }
