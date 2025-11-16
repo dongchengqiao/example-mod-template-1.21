@@ -34,5 +34,10 @@ public class ModItemGroups {
                 .icon(() -> new ItemStack(ModItems.New_Item))
                 .entries((displayContext, entries) -> {
                     entries.add(new ItemStack(ModItems.New_Item));
-                }).build());
+                })
+                .build()
+        );
+    public static void registerModItemGroups(){
+        ExampleMod.LOGGER.info("Registering Item Groups");
+    }
 }

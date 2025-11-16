@@ -1,5 +1,6 @@
 package com.dongchengqiao.example;
 
+import com.dongchengqiao.example.item.ModItemGroups;
 import com.dongchengqiao.example.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +22,7 @@ public class ExampleMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerItems();
+        ModItemGroups.registerModItemGroups();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
