@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
-//    public static final RegistryKey<ItemGroup> EXAMPLE_GROUP= register("example_group");
+//    public static final RegistryKey<ItemGroup> EXAMPLE_GROUP = register("example_group");
 //
 //    private static RegistryKey<ItemGroup> register(String id) {
 //        return RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of(ExampleMod.MOD_ID, id));
@@ -29,11 +29,10 @@ public class ModItemGroups {
 //                        .build());
 //        ExampleMod.LOGGER.info("Registering ModItemGroups");
 //    }
-    public static final ItemGroup EXAMPLE_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(ExampleMod.MOD_ID, "example_group")
-            ,ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.example_group"))
-                    .icon(() -> new ItemStack(ModItems.NEW_ITEM))
-                    .entries((displayContext, entries) -> {
-                        entries.add(ModItems.NEW_ITEM);
-                    })
-                    .build());
+    public static final ItemGroup EXAMPLE_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(ExampleMod.MOD_ID, "example_group"),
+        ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.example_group"))
+                .icon(() -> new ItemStack(ModItems.New_Item))
+                .entries((displayContext, entries) -> {
+                    entries.add(new ItemStack(ModItems.New_Item));
+                }).build());
 }
