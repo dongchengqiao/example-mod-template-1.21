@@ -1,6 +1,7 @@
 package com.dongchengqiao.example.item;
 
 import com.dongchengqiao.example.ExampleMod;
+import com.dongchengqiao.example.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -33,7 +34,8 @@ public class ModItemGroups {
         ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.example_group"))
                 .icon(() -> new ItemStack(ModItems.New_Item))
                 .entries((displayContext, entries) -> {
-                    entries.add(new ItemStack(ModItems.New_Item));
+                    entries.add(ModItems.New_Item);
+                    entries.add(ModBlocks.New_Block);
                 })
                 .build()
         );

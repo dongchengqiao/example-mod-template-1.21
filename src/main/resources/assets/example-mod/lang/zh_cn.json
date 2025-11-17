@@ -1,4 +1,5 @@
 {
   "item.example-mod.new_item": "新物品",
-  "itemGroup.example_group": "Example Mod"
+  "itemGroup.example_group": "Example Mod",
+  "block.example-mod.new_block": "新方块"
 }
