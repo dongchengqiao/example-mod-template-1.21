@@ -13,5 +13,6 @@ public class ExampleModDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(ModENUSLanProvider::new);
         pack.addProvider(ModZHCNLanProvider::new);
         pack.addProvider(ModItemTagsProvider::new);
+        pack.addProvider(ModBlockLootTableProvider::new);
 	}
 }

@@ -17,5 +17,6 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
     public void generateTranslations(RegistryWrapper.WrapperLookup wrapperLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(ModItems.New_Item,"New Item");
         translationBuilder.add(ModBlocks.New_Block,"New Block");
+        translationBuilder.add(ModItems.New_Food,"New Food");
     }
 }

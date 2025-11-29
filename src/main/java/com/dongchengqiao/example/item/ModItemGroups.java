@@ -36,6 +36,7 @@ public class ModItemGroups {
                 .entries((displayContext, entries) -> {
                     entries.add(ModItems.New_Item);
                     entries.add(ModBlocks.New_Block);
+                    entries.add(ModItems.New_Food);
                 })
                 .build()
         );

@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     //第一个物品
     public static final Item New_Item = registerItem("new_item", new Item(new Item.Settings()));
+    public static final Item New_Food = registerItem("new_food", new Item(new Item.Settings().food(ModFoodComponents.New_Food)));
 
     private static Item registerItem(String  id, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(ExampleMod.MOD_ID,id), item);
