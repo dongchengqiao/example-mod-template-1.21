@@ -1,5 +1,5 @@
 {
-  "item.example-mod.new_item": "New Item",
-  "itemGroup.example_group": "Example Mod",
-  "block.example-mod.new_block": "New Block"
+  "block.example-mod.new_block": "New Block",
+  "item.example-mod.new_food": "New Food",
+  "item.example-mod.new_item": "New Item"
 }

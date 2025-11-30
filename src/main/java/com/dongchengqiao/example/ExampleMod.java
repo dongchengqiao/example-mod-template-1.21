@@ -1,6 +1,7 @@
 package com.dongchengqiao.example;
 
 import com.dongchengqiao.example.block.ModBlocks;
+import com.dongchengqiao.example.block.entity.ModBlockEntities;
 import com.dongchengqiao.example.item.ModItemGroups;
 import com.dongchengqiao.example.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -25,6 +26,7 @@ public class ExampleMod implements ModInitializer {
 		ModItems.registerItems();
         ModItemGroups.registerModItemGroups();
         ModBlocks.registerModBlocks();
+        ModBlockEntities.registerBlockEntities();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

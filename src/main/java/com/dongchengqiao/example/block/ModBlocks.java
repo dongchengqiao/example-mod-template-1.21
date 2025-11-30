@@ -1,8 +1,11 @@
 package com.dongchengqiao.example.block;
 
 import com.dongchengqiao.example.ExampleMod;
+import com.dongchengqiao.example.block.custom.BoxBlock;
+import com.dongchengqiao.example.block.entity.ModBlockEntities;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -11,6 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block New_Block = register("new_block", new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
+    public static final Block Box = register("box", new BoxBlock(AbstractBlock.Settings.copy(Blocks.CHEST)));
 
     public static void registerBlockItems(String id, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(ExampleMod.MOD_ID, id), new BlockItem(block, new Item.Settings()));
