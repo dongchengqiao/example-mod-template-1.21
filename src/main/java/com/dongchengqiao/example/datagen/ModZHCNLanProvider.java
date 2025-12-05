@@ -20,6 +20,8 @@ public class ModZHCNLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.New_Item,"新物品");
         translationBuilder.add(ModBlocks.New_Block,"新方块");
         translationBuilder.add(ModItems.New_Food,"新食物");
+        translationBuilder.add(ModBlocks.Box, "盒子");
+        translationBuilder.add("container.box", "盒子");
 
         translationBuilder.add("itemGroup.example_group", "Example Mod");
     }

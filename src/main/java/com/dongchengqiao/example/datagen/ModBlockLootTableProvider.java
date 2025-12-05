@@ -15,6 +15,6 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-
+        addDrop(ModBlocks.Box,nameableContainerDrops(ModBlocks.Box));
     }
 }

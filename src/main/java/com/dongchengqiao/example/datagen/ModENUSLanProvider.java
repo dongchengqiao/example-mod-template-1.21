@@ -1,6 +1,7 @@
 package com.dongchengqiao.example.datagen;
 
 import com.dongchengqiao.example.block.ModBlocks;
+import com.dongchengqiao.example.block.entity.ModBlockEntities;
 import com.dongchengqiao.example.item.ModItemGroups;
 import com.dongchengqiao.example.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -19,6 +20,8 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.New_Item,"New Item");
         translationBuilder.add(ModBlocks.New_Block,"New Block");
         translationBuilder.add(ModItems.New_Food,"New Food");
+        translationBuilder.add(ModBlocks.Box, "Box");
+        translationBuilder.add("container.box", "Box");
 
         translationBuilder.add("itemGroup.example_group", "Example Mod");
     }

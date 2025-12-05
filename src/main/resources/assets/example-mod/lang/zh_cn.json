@@ -1,5 +1,8 @@
 {
+  "block.example-mod.box": "盒子",
   "block.example-mod.new_block": "新方块",
+  "container.box": "盒子",
   "item.example-mod.new_food": "新食物",
-  "item.example-mod.new_item": "新物品"
+  "item.example-mod.new_item": "新物品",
+  "itemGroup.example_group": "Example Mod"
 }
